@@ -35,7 +35,6 @@ a {
     font-size: 12px;
     text-decoration:  none;
     color: #777;
-    padding-right: 15px;
 
 }
 
@@ -47,6 +46,7 @@ a {
     background-color: #666;
     clear: both;
     padding: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
 }
 
 #content {
@@ -55,10 +55,8 @@ a {
     text-align: left;
     padding: 10px 10px 10px 10px;
     margin-bottom: 20px;
-
-    
     background-color: #fff;
-    border: 2px solid #dddddd;
+    border: 1px solid #ddd;
 }
 
 #sidebar {
@@ -67,18 +65,19 @@ a {
     padding: 1px 1px 1px 1px;
     text-align: center;
     background-color: #fff;
-    border: 2px solid #dddddd;
+    border: 1px solid #ddd;
     margin-left: 40px;
 }
 
 #navigation li {
     display: inline;
-
-
-
+    padding-right: 20px;
 }
+
+
 img {
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px;
+    float: left;
 }
 
 h2 {
@@ -91,11 +90,10 @@ p {
     color: #777;
     padding: 10px 10px 10px 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 26px;
+    text-overflow: left;
 }
 
-body {
-    background-image: -moz-element("assets/images/stack.png")
-}
 
 .clearfix {
     overflow: auto;
@@ -135,4 +133,13 @@ label {
 
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#cat {
+    width: 150px;
+    display: inline-block;
+}
+
+#side{
+    padding-right: 20px;
 }
