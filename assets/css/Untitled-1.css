@@ -2,47 +2,41 @@
   box-sizing: border-box;
   
 }
-/* body margin of zero */
-
-#center{
-    margin: 0 auto;
-    width: 960px;
-}
 
 #container {
+    margin-right: 10%;
     text-align: right;
+    margin-left: 10%;
     background-image: url("../images/concrete-texture.png");
-    width: 100%;
+    width: 960px;
 }
 
 
 
 #header {
-    width: 100%;
+    width: 960px;
     border: 1px solid #ccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: white;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    /* justify-content: center; */
-    justify-content: space-around;
 }
 
 #jaime {
     color: white;
     position: relative;
     padding: 18px 18px;
-    /* left: -805px; */
-    /* bottom: 1px; */
+    left: -533px;
+    bottom: 1px;
     background-color: #4aaaa5;
     font-weight:      bold;
-    /* display: inline-block; */
+    display: inline-block;
     font-family: 'Georgia', Times, Times New Roman, serif; 
 }
 
+
+
+
 #footer {
-    width: 100%;
+    width: 960px;
     text-align: center;
     color: white;
     background-color: #666;
@@ -122,6 +116,7 @@ input[type=submit]:hover {
 }
 
 .container {
+    background-color: ;
     padding: 20px;
 }
 
