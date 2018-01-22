@@ -29,10 +29,12 @@
 
 #jaime {
     color: white;
-    padding: 18px 18px;
+    padding: 20px 20px;
     background-color: #4aaaa5;
     font-weight:      bold;
     font-family: 'Georgia', Times, Times New Roman, serif; 
+    font-stretch: ultra-expanded;
+    font-size: 24px;
 }
 
 #footer {
@@ -67,13 +69,9 @@
     padding-right: 5px;
 }
 
-#navigation li {
-    display: inline;
-}
-
 
 img {
-    margin: 19px 19px;
+    margin: 18px 18px;
     float: left;
     
 }
@@ -121,7 +119,7 @@ label {
 #folders {
     display: inline-block;
     margin: auto;
-    border: 3px solid #777; 
+    border: 3px solid #4aaaa5; 
     width: 200px;
     margin-left:60px;
     margin-top: 10px;
